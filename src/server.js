@@ -21,7 +21,7 @@ app.get('/health', (req, res) => {
 });
 
 // Default welcome route (optional)
-app.get('/', (req, res) => {
+app.get('/api/backend', (req, res) => {
   res.send('🚀 Backend is running successfully!');
 });
 
